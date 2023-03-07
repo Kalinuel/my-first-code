@@ -1,0 +1,243 @@
+  @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+body {
+    font-family: 'Hanken Grotesk', sans-serif;
+    background: grey;
+    background: white;
+}
+
+.container {
+    display: flex;
+    width: 60%;
+    height: 80vh;
+    background: white;
+    margin: 40px 15em;
+    box-shadow: 8px 8px 20px 10px hsl(221, 100%, 96%);
+    border-radius: 20px;
+}
+
+.one {
+    background: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    text-align: center;
+    width: 50%;
+    border-radius: 20px;
+    padding: 60px 10px;
+}
+
+#rst {
+    color: hsl(221, 100%, 93%);
+    font-size: 30px;
+}
+#circle {
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));    
+    border-radius: 100%;
+    position: relative;
+    top: 40px;
+    left: 80px;
+
+}
+#p {
+    position: absolute;
+    left: 405px;
+    top: 220px;
+}
+#seven {
+    font-size: 60px;
+    font-weight: 600;
+    color: hsl(0, 0%, 100%);
+}
+
+h2 {
+    color: hsl(0, 0%, 100%);
+    margin-top: 80px;
+}
+.pp {
+    color: hsl(221, 100%, 93%);
+}
+.p {
+    color: hsl(221, 100%, 93%);
+    width: 58%;
+    margin-left: 85px;
+}
+
+
+.two {
+    padding: 20px;
+    width: 50%;
+}
+
+#react {
+    display: flex;
+    background: hsla(0, 100%, 67%, 0.164);
+    width: 102%;
+    border-radius: 20px;
+}
+#reactt {
+     color: hsl(0, 100%, 67%);
+     margin-left: 30px;
+     font-weight: 700;
+     font-size: 16px;
+}
+
+#memory {
+    display: flex;
+    background: hsl(39, 100%, 56%, 0.164);
+    width: 102%;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+#memoryy {
+    color: hsl(39, 100%, 56%);
+    margin-left: 30px;
+    font-weight: 700;
+     font-size: 16px;
+}
+
+#verbal {
+    display: flex;
+    background: hsl(166, 100%, 37%, 0.164);
+    width: 102%;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+#verball {
+    color: hsl(166, 100%, 37%);
+    margin-left: 30px;
+    font-weight: 700;
+     font-size: 16px;
+}
+
+#visual {
+    display: flex;
+    background: hsl(234, 85%, 45%, 0.164);
+    width: 102%;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+#visuall {
+    color: hsl(234, 85%, 45%);
+    margin-left: 30px;
+    font-weight: 700;
+     font-size: 16px;
+}
+
+.p_size {
+    font-size: 15px;
+    margin-top: 24px;
+    font-weight: 700;
+}
+
+.ppp {
+    margin-left: 11em;
+}
+.pppp {
+    color: gray;
+}
+
+img {
+    margin-left: 20px;
+}
+
+button {
+    width: 400px;
+    height: 45px;
+    border-radius: 20px;
+    font-size: 20px;
+    border: transparent;
+    background: hsl(224, 30%, 27%);
+    color: hsl(0, 0%, 100%);
+    margin-top: 30px;
+    cursor: pointer;
+    /* margin-left: 100px; */
+}
+button:hover {
+    background: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    color: hsl(221, 100%, 93%);
+}
+
+
+
+
+
+@media screen and ( max-width: 375px) {
+    .container {
+    display: block;
+    width: 360px;
+    box-shadow: none;
+    margin: 0;
+}
+.one {
+    background: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    text-align: center;
+    border-radius:0 0 20px 20px;
+    /* padding: 60px 10px; */
+    width: 95%;
+}
+#circle {
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));    
+    border-radius: 100%;
+    position: relative;
+    top: 40px;
+    left: 80px;
+
+}
+.p {
+    width: 80%;
+    margin-left: 40px;
+}
+#react {
+    width: 185%;
+}
+#reactt {
+     color: hsl(0, 100%, 67%);
+     margin-left: 10px;
+     font-weight: 700;
+     font-size: 16px;
+}
+#memory {
+    width: 185%;
+}
+#memoryy {
+    margin-left: 10px;
+}
+
+#verbal {
+    width: 185%;
+}
+#verball {
+    margin-left: 10px;
+}
+
+#visual {
+    width: 185%;
+}
+#visuall {
+    margin-left: 10px;
+}
+#p {
+    position: absolute;
+    left: 165px;
+    top: 200px;
+}
+button {
+    width: 345px;
+    height: 45px;
+    border-radius: 20px;
+    font-size: 20px;
+    border: transparent;
+    background: hsl(224, 30%, 27%);
+    color: hsl(0, 0%, 100%);
+    margin-top: 30px;
+    cursor: pointer;
+    /* margin-left: 100px; */
+}
+.attribution {
+    position: absolute;
+    top: 185vh;
+}
+
+}
